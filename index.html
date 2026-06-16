@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        // Source - https://stackoverflow.com/a/31135571
+        // Posted by Fiach Reid, modified by community. See post 'Timeline' for change history
+        // Retrieved 2026-06-16, License - CC BY-SA 4.0
+
+        function getLang() {
+        if (navigator.languages !== undefined) 
+            return navigator.languages[0]; 
+        return navigator.language;
+        }
+        window.location = `https://github.com/Hypocrate-code/HypLoad#${getLang() === "en" || "fr" ? getLang() : "en"}-features`;
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect</title>
+</head>
+<body>
+</body>
+</html>
